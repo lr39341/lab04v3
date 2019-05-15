@@ -8,6 +8,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.SimpleCursorAdapter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,7 +16,10 @@ import java.util.Arrays;
 public class MainActivity extends AppCompatActivity {
 
     private ArrayList<String> target;
-    private ArrayAdapter adapter;
+    //private ArrayAdapter adapter;
+    private SimpleCursorAdapter adapter;
+    private MySQLite db;
+
 
 
     @Override

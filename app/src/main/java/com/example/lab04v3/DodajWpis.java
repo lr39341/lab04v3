@@ -17,7 +17,7 @@ public class DodajWpis extends AppCompatActivity {
 
     public void wyslij (View view) {
         EditText kontrolka =
-                (EditText) findViewById(R.id.editText);
+                (EditText) findViewById(R.id.kolor);
         String pole =
                 kontrolka.getText().toString();
         Intent intencja = new Intent();
